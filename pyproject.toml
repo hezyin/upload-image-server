@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "image-server"
+version = "0.1.0"
+description = ""
+authors = ["Hezheng Yin <hezheng@merico.dev>"]
+readme = "README.md"
+packages = [{include = "image_server"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
